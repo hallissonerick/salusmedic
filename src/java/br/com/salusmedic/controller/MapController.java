@@ -8,7 +8,7 @@ public class MapController {
 
     @RequestMapping("/")
     public String iniciando() {
-        return "index";
+        return "login";
     }
 
     @RequestMapping("/cadastro")
